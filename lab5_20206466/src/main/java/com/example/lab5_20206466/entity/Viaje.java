@@ -15,13 +15,13 @@ public class Viaje {
     private Integer id_viajes;
 
     @Column(name = "punto_recojo")
-    private String nombre_mascota;
+    private String punto_recojo;
 
     @Column(name = "cant_personas")
-    private String genero;
+    private String cant_personas;
 
     @Column(name = "cant_perros")
-    private String edad;
+    private String cant_perros;
 
 /*
     @ManyToOne

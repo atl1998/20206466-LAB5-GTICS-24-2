@@ -32,16 +32,16 @@
         <table class="table table-striped">
             <thead class="">
                 <tr>
-                    <th>Nombre</th>
-                    <th>Genero</th>
-                    <th>Edad</th>
+                    <th>Punto recojo</th>
+                    <th>Cantidad personas</th>
+                    <th>Cantidad mascotas</th>
                 </tr>
             </thead>
             <tbody>
                 <tr th:each="viaje:${listaviajes}">
-                    <td th:text="${viaje.nombre_mascota}"></td>
-                    <td th:text="${viaje.genero}"></td>
-                    <td th:text="${viaje.edad}"></td>
+                    <td th:text="${viaje.punto_recojo}"></td>
+                    <td th:text="${viaje.cant_personas}"></td>
+                    <td th:text="${viaje.cant_perros}"></td>
                 </tr>
             </tbody>
         </table>
